@@ -1,0 +1,6 @@
+{
+  "name": "AiiStore99 - Premium Beauty, Skincare & Lifestyle",
+  "description": "Toko online premium dan elegan terinspirasi dari gaya editorial AiiStore99, dilengkapi katalog produk Skincare, Kosmetik, Aksesoris, Fashion, keranjang belanja, checkout WhatsApp, dan dashboard admin komprehensif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

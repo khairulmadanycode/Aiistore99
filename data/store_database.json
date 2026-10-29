@@ -1,0 +1,295 @@
+{
+  "adminUser": {
+    "id": "admin_1",
+    "email": "admin@aiistore99.com",
+    "passwordHash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "name": "AiiStore99 Administrator",
+    "role": "superadmin"
+  },
+  "settings": {
+    "storeName": "AiiStore99",
+    "tagline": "Your Everyday Beauty & Style.",
+    "subheadline": "Discover beauty, essentials, and timeless style in one place.",
+    "heroImage": "/src/assets/images/hero_editorial_beauty_1793243310383.jpg",
+    "heroBadgeText": "Editorial Edition '26",
+    "announcementBarText": "Kurasi eksklusif kecantikan & busana pilihan · Konsultasi & pemesanan langsung via WhatsApp",
+    "isAnnouncementBarActive": true,
+    "whatsappNumber": "6281234567890",
+    "whatsappDefaultMessage": "Halo AiiStore99, saya ingin berkonsultasi mengenai produk berikut dan melanjutkan pemesanan:",
+    "email": "hello@aiistore99.com",
+    "instagramUrl": "https://www.instagram.com/aiistore99",
+    "operationalHours": "Senin - Sabtu: 09:00 - 20:00 WIB",
+    "address": "Jakarta & Surabaya, Indonesia",
+    "freeShippingThreshold": 250000,
+    "promoBannerTitle": "Timeless Elegance Collection",
+    "promoBannerSubtitle": "Dirancang untuk menonjolkan keanggunan alami Anda setiap hari dengan kualitas bahan terbaik.",
+    "promoBannerButtonText": "Jelajahi Koleksi",
+    "paymentMethods": [
+      {
+        "id": "bca",
+        "name": "Transfer Bank BCA",
+        "description": "Pembayaran manual via transfer ATM / Mobile Banking BCA.",
+        "accountNumber": "8830 1928 99",
+        "accountName": "AiiStore99 Official",
+        "isActive": true
+      },
+      {
+        "id": "mandiri",
+        "name": "Transfer Bank Mandiri",
+        "description": "Pembayaran transfer antar bank rekening Mandiri.",
+        "accountNumber": "1420 0192 8899",
+        "accountName": "AiiStore99 Official",
+        "isActive": true
+      },
+      {
+        "id": "qris",
+        "name": "QRIS (Gopay / OVO / ShopeePay / Dana)",
+        "description": "Scan kode QRIS yang akan kami kirimkan via WhatsApp setelah pesanan terkonfirmasi.",
+        "accountNumber": "ID10200392819",
+        "accountName": "AiiStore99 Merchant",
+        "isActive": true
+      },
+      {
+        "id": "cod",
+        "name": "Cash On Delivery (COD)",
+        "description": "Bayar tunai saat barang sampai (khusus area Jabodetabek & Surabaya).",
+        "accountNumber": "",
+        "accountName": "",
+        "isActive": true
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "cat-skincare",
+      "name": "Skincare",
+      "slug": "skincare",
+      "description": "Perawatan wajah esensial dengan formula lembut dan hidrasi mendalam.",
+      "image": "/src/assets/images/product_skincare_serum_1793243311550.jpg",
+      "order": 1,
+      "isActive": true
+    },
+    {
+      "id": "cat-cosmetics",
+      "name": "Cosmetics",
+      "slug": "cosmetics",
+      "description": "Kosmetik berpigmentasi halus untuk tampilan segar, alami, dan percaya diri.",
+      "image": "/src/assets/images/product_cosmetics_lipstick_1793243311358.jpg",
+      "order": 2,
+      "isActive": true
+    },
+    {
+      "id": "cat-accessories",
+      "name": "Accessories",
+      "slug": "accessories",
+      "description": "Perhiasan champagne gold dan aksesoris elegan bernuansa minimalis.",
+      "image": "/src/assets/images/product_accessory_necklace_1793243312624.jpg",
+      "order": 3,
+      "isActive": true
+    },
+    {
+      "id": "cat-fashion",
+      "name": "Fashion",
+      "slug": "fashion",
+      "description": "Pakaian berbahan linen premium dan siluet kontemporer serbaguna.",
+      "image": "/src/assets/images/product_fashion_blazer_1793243312432.jpg",
+      "order": 4,
+      "isActive": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Radiance Botanical Glow Dropper Serum",
+      "slug": "radiance-botanical-glow-dropper-serum",
+      "category": "skincare",
+      "shortDescription": "Serum wajah konsentrat dengan tekstur ringan untuk hidrasi tahan lama dan kilau alami kulit.",
+      "fullDescription": "Radiance Botanical Glow Dropper Serum dirancang khusus untuk memenuhi kebutuhan hidrasi harian kulit Anda.\n\nKeunggulan Formula:\n• Tekstur cair ringan cepat meresap tanpa rasa lengket\n• Menjaga kelembapan optimal sepanjang hari\n• Cocok untuk semua jenis kulit, termasuk kulit sensitif\n• Kemasan botol kaca frosted premium dengan aplikator dropper higienis\n\nCara Pemakaian:\nTeteskan 3-4 tetes serum pada wajah dan leher yang telah dibersihkan. Tepuk lembut dengan ujung jari hingga meresap sempurna sebelum menggunakan pelembap.",
+      "price": 189000,
+      "originalPrice": 229000,
+      "sku": "SKIN-RAD-01",
+      "stock": 45,
+      "variants": [
+        {
+          "id": "v1",
+          "name": "30 ml (Standard)",
+          "sku": "SKIN-RAD-01-30",
+          "stock": 30,
+          "priceDelta": 0
+        },
+        {
+          "id": "v2",
+          "name": "50 ml (Value Size)",
+          "sku": "SKIN-RAD-01-50",
+          "stock": 15,
+          "priceDelta": 70000
+        }
+      ],
+      "primaryImage": "/src/assets/images/product_skincare_serum_1793243311550.jpg",
+      "gallery": [
+        "/src/assets/images/product_skincare_serum_1793243311550.jpg"
+      ],
+      "altText": "Botol kaca frosted serum wajah premium dengan pipet dropper amber",
+      "label": "Best Seller",
+      "isActive": true,
+      "isFeatured": true,
+      "createdAt": "2026-10-20T10:00:00Z",
+      "updatedAt": "2026-10-28T10:00:00Z"
+    },
+    {
+      "id": "prod-2",
+      "name": "Aurelia Velvet Matte Hydrating Lip Tint",
+      "slug": "aurelia-velvet-matte-hydrating-lip-tint",
+      "category": "cosmetics",
+      "shortDescription": "Lipstik matte bertekstur velvet lembut dengan formula nyaman yang tidak membuat bibir kering.",
+      "fullDescription": "Aurelia Velvet Matte Hydrating Lip Tint menghadirkan sentuhan warna hangat yang menyatu harmonis dengan warna bibir alami.\n\nDetail Produk:\n• Sentuhan akhir matte halus seperti beludru\n• Pigmentasi tinggi hanya dengan satu pulasan halus\n• Casing champagne gold dengan magnetik cap eksklusif\n• Nyaman dipakai seharian tanpa rasa berat\n\nPilihan Shade:\n• Warm Nude: Warna nude hangat untuk kegiatan harian\n• Terracotta Rose: Sentuhan merah bata lembut berkarakter",
+      "price": 145000,
+      "originalPrice": 175000,
+      "sku": "COS-LIP-02",
+      "stock": 60,
+      "variants": [
+        {
+          "id": "v3",
+          "name": "Warm Nude (01)",
+          "sku": "COS-LIP-01",
+          "stock": 35,
+          "priceDelta": 0
+        },
+        {
+          "id": "v4",
+          "name": "Terracotta Rose (02)",
+          "sku": "COS-LIP-02",
+          "stock": 25,
+          "priceDelta": 0
+        }
+      ],
+      "primaryImage": "/src/assets/images/product_cosmetics_lipstick_1793243311358.jpg",
+      "gallery": [
+        "/src/assets/images/product_cosmetics_lipstick_1793243311358.jpg"
+      ],
+      "altText": "Lipstik velvet matte nude elegan dengan kemasan champagne gold dan hitam",
+      "label": "New Arrival",
+      "isActive": true,
+      "isFeatured": true,
+      "createdAt": "2026-10-22T11:30:00Z",
+      "updatedAt": "2026-10-28T10:00:00Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "Aurelia 18K Gold Hammered Medallion Pendant",
+      "slug": "aurelia-18k-gold-hammered-medallion-pendant",
+      "category": "accessories",
+      "shortDescription": "Kalung rantai halus berhias liontin medali emas dengan tekstur hammered bernuansa artisanal.",
+      "fullDescription": "Kalung liontin emas 18K dengan teknik hammered tangan yang memberikan kilau cahaya lembut yang unik di setiap sudutnya.\n\nSpesifikasi:\n• Rantai tipis elegan tahan luntur\n• Liontin medali bulat dengan tekstur hammered organik\n• Kancing pengait lobster kokoh\n• Bebas nikel dan ramah untuk kulit sensitif\n\nPerawatan:\nHindari kontak langsung dengan parfum atau bahan kimia keras. Simpan dalam kantong kain lembut saat tidak digunakan.",
+      "price": 265000,
+      "originalPrice": 299000,
+      "sku": "ACC-NECK-03",
+      "stock": 28,
+      "variants": [
+        {
+          "id": "v5",
+          "name": "Rantai 42 cm",
+          "sku": "ACC-NECK-03-42",
+          "stock": 16,
+          "priceDelta": 0
+        },
+        {
+          "id": "v6",
+          "name": "Rantai 48 cm",
+          "sku": "ACC-NECK-03-48",
+          "stock": 12,
+          "priceDelta": 20000
+        }
+      ],
+      "primaryImage": "/src/assets/images/product_accessory_necklace_1793243312624.jpg",
+      "gallery": [
+        "/src/assets/images/product_accessory_necklace_1793243312624.jpg"
+      ],
+      "altText": "Kalung liontin medali emas 18 karat di atas kain linen alami",
+      "label": "Curated Pick",
+      "isActive": true,
+      "isFeatured": true,
+      "createdAt": "2026-10-24T09:15:00Z",
+      "updatedAt": "2026-10-28T10:00:00Z"
+    },
+    {
+      "id": "prod-4",
+      "name": "Atelier Raw Linen Structured Oversized Blazer",
+      "slug": "atelier-raw-linen-structured-oversized-blazer",
+      "category": "fashion",
+      "shortDescription": "Blazer linen murni bernuansa ivory dengan potongan relaxed tailored untuk gaya harian maupun formal.",
+      "fullDescription": "Atelier Raw Linen Blazer adalah busana esensial lemari pakaian Anda. Menghadirkan keseimbangan antara kenyamanan bahan alami dan siluet berstruktur yang elegan.\n\nDetail Pakaian:\n• 100% linen alami breathable dan sejuk di kulit\n• Lapisan dalam parsial berbahan katun ringan\n• Kancing tanduk sintetis bernuansa tortoiseshell alami\n• Dua saku tempel fungsional di bagian depan\n• Potongan oversized kontemporer yang pas dan tidak kaku\n\nPanduan Ukuran:\n• Size S: Lingkar Dada 102 cm, Panjang 72 cm\n• Size M: Lingkar Dada 108 cm, Panjang 74 cm\n• Size L: Lingkar Dada 114 cm, Panjang 76 cm",
+      "price": 495000,
+      "originalPrice": 580000,
+      "sku": "FASH-BLZ-04",
+      "stock": 20,
+      "variants": [
+        {
+          "id": "v7",
+          "name": "Ukuran S (Oatmeal Cream)",
+          "sku": "FASH-BLZ-04-S",
+          "stock": 6,
+          "priceDelta": 0
+        },
+        {
+          "id": "v8",
+          "name": "Ukuran M (Oatmeal Cream)",
+          "sku": "FASH-BLZ-04-M",
+          "stock": 9,
+          "priceDelta": 0
+        },
+        {
+          "id": "v9",
+          "name": "Ukuran L (Oatmeal Cream)",
+          "sku": "FASH-BLZ-04-L",
+          "stock": 5,
+          "priceDelta": 0
+        }
+      ],
+      "primaryImage": "/src/assets/images/product_fashion_blazer_1793243312432.jpg",
+      "gallery": [
+        "/src/assets/images/product_fashion_blazer_1793243312432.jpg"
+      ],
+      "altText": "Blazer linen oversized warna ivory cream digantung pada hanger kayu minimalis",
+      "label": "Limited Edition",
+      "isActive": true,
+      "isFeatured": true,
+      "createdAt": "2026-10-25T14:20:00Z",
+      "updatedAt": "2026-10-28T10:00:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1793244562498",
+      "orderNumber": "AII-562498",
+      "customerName": "Test Buyer",
+      "customerWhatsapp": "08123456789",
+      "shippingAddress": "Jl. Test No. 1",
+      "city": "Jakarta",
+      "notes": "",
+      "paymentMethod": "Transfer Bank BCA",
+      "items": [
+        {
+          "productId": "prod-1793244562488",
+          "productName": "Test Audit Product",
+          "price": 120000,
+          "quantity": 2,
+          "subtotal": 240000
+        }
+      ],
+      "subtotal": 240000,
+      "shippingFee": 20000,
+      "total": 260000,
+      "status": "pending",
+      "whatsappSent": true,
+      "createdAt": "2026-10-29T03:29:22.498Z"
+    }
+  ],
+  "sessions": {
+    "e1fd1a805d7f19a076f4584069ad5d789482c9d3b2334396fffd19f32b3c1900": {
+      "userId": "admin_1",
+      "email": "admin@aiistore99.com",
+      "expires": 1793849362477
+    }
+  }
+}
